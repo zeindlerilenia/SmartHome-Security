@@ -1,4 +1,4 @@
 # SmartHome-Security
-## Scrum Master: Ilenia
-## Product Owner: Vanesa
+Scrum Master: Ilenia
+Product Owner: Vanesa
 
