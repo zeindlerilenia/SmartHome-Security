@@ -7,6 +7,14 @@
 - React
 - Visual Studio Code
 
+### Tiers
+-  Frontend
+
+### Komponents
+-   Product Backlog
+-   Sprint Goal
+-   User Stories
+
 ### Ziel
 - SmartHome Webseite ohne Login
 - Mehrere Geräte verbindbar
