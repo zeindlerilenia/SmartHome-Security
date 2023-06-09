@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import LoginPage from './LoginPage';
-import HomePage from './HomePage';
+import LoginPage from './login/LoginPage';
+import HomePage from './home/HomePage';
 
 export enum AuthState {
   LoggedOut,

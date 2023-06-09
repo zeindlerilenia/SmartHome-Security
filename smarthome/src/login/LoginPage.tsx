@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { AuthState } from './App';
-import './index.css';
+import { AuthState } from '../App';
+import './loginPage.css';
 
 type LoginPageProps = {
   onLogin: (authState: AuthState) => void;
