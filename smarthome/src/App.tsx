@@ -1,22 +1,11 @@
 import React, { useState } from 'react';
-import LoginPage from './login/LoginPage';
-import HomePage from './home/HomePage';
-
-export enum AuthState {
-  LoggedOut,
-  LoggedIn,
-}
+import Sidebar from './home/Sidebar';
 
 const App: React.FC = () => {
-  const [authState, setAuthState] = useState(AuthState.LoggedOut);
 
   return (
     <div className="App">
-      {authState === AuthState.LoggedOut ? (
-        <LoginPage onLogin={setAuthState} />
-      ) : (
-        <HomePage />
-      )}
+      <Sidebar/>
     </div>
   );
 };
