@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Sidebar from './src/home/Sidebar';
+import Sidebar from './home/Sidebar';
 
 const App: React.FC = () => {
 
