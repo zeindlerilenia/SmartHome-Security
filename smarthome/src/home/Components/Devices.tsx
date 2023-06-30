@@ -5,6 +5,7 @@ const Devices: React.FC = () => {
   return (
     <div>
       <h2>Devices</h2>
+      <div style={{ display: 'flex', gap: '20px' }}>
       <Card>
       <CardContent>
         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
@@ -39,6 +40,7 @@ const Devices: React.FC = () => {
         </Typography>
       </CardContent>
     </Card>
+    </div>
     </div>
   );
 };

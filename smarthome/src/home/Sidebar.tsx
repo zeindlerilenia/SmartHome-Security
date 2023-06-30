@@ -29,6 +29,7 @@ enum ActiveComponent {
     Settings = 'Settings',
 }
 
+
 export default function Sidebar(props: Props) {
     const [activeComponent, setActiveComponent] = React.useState(ActiveComponent.Overview);
 
